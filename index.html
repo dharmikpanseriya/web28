@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parabolic SAR</title>
+    <style>
+
+      
+      body {
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+          background-color: #060916;
+          color: white;
+          margin: 0;
+          padding: 20px;
+          line-height: 1.6;
+      }
+
+      .title-container {
+    background-image: url('https://i.pinimg.com/originals/bf/03/e7/bf03e792ca95a5d43050d5b1f31bfbe0.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    background-color: rgba(6, 9, 22, 0.6); /* Background color with 60% transparency */
+}
+
+      .title-container h1 {
+          color: #ffffff;
+          margin: 0;
+      }
+
+      .bottom-section {
+    background-image: url('https://i.pinimg.com/originals/bf/03/e7/bf03e792ca95a5d43050d5b1f31bfbe0.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    background-color: rgba(6, 9, 22, 0.6); /* Background color with 60% transparency */
+}
+
+
+      .bottom-image {
+          max-width: 100%;
+          height: auto;
+          border-radius: 15px;
+          margin-bottom: 10px;
+          position: relative;
+      }
+
+      .bottom-text {
+          position: absolute;
+          bottom: 10px;
+          left: 50%;
+          transform: translateX(-50%);
+          color: white;
+          font-size: 18px;
+          font-weight: bold;
+          text-align: bottom;
+          margin-top: 10px; /* Adjusted top margin */
+      }
+  </style>
+</head>
+
+<body>
+
+    <div class="title-container">
+        <h1>Parabolic SAR</h1>
+    </div>
+
+    <p>The Parabolic SAR (Stop and Reverse) is a popular technical analysis indicator developed by J. Welles Wilder. It's designed to provide potential entry and exit points, and to signal the direction of a trend. The indicator is called "parabolic" because, when plotted on a chart, the dots representing the SAR form a parabolic shape. </p>
+    <h3>Calculating the Parabolic SAR</h3>
+    <p>The Parabolic SAR is calculated using the following formulas:</p>
+    <p>= Uptrend: SAR = Prior SAR + Prior AF(Prior EP - Prior SAR)</p>
+    <p>= Downtrend: SAR = Prior SAR - Prior AF(Prior SAR - Prior EP)</p>
+    <h3>Where:</h3>
+    <p>SAR = Stop and Reverse</p>
+    <p>AF = Acceleration Factor, which starts at 0.02 and increases by 0.02 each time a new extreme point (EP) is recorded, up to a maximum of 0.20.</p>
+    <p>EP = Extreme Point, which is the highest high in an uptrend or the lowest low in a downtrend.</p>
+    <h3>Interpreting the Parabolic SAR</h3>
+    <p>The Parabolic SAR is plotted as a series of dots above or below the price bars. When the dots are below the price bars, this suggests an uptrend and is a signal to buy or hold. When the dots are above the price bars, this suggests a downtrend and is a signal to sell or short.</p>
+    <p>The Parabolic SAR is also used to set trailing stop losses. In an uptrend, the SAR value can be used as a stop loss level that moves up as the price rises. In a downtrend, the SAR value can be used as a stop loss level that moves down as the price falls.</p>
+    <h3>Trading with the Parabolic SAR</h3>
+    <p>The Parabolic SAR can be a useful tool for traders looking to identify potential entry and exit points. Here are a few ways it can be used:</p>
+    <p><b>1.Trend Identification:</b>Entry Points: A trader might consider entering a long position when the Parabolic SAR moves below the price (indicating an uptrend) and entering a short position when the Parabolic SAR moves above the price (indicating a downtrend). If the Parabolic SAR dots are below the price, this indicates an uptrend. If they're above the price, this indicates a downtrend.</p>
+    <p><b>2.Entry Points:</b> A trader might consider entering a long position when the Parabolic SAR moves below the price (indicating an uptrend) and entering a short position when the Parabolic SAR moves above the price (indicating a downtrend).</p>
+    <p><b>3.Exit Points:</b> A trader might consider exiting a long position when the Parabolic SAR moves above the price (indicating a potential downtrend) and exiting a short position when the Parabolic SAR moves below the price (indicating a potential uptrend).</p>
+    <p><b>4.Stop Loss Levels:</b> The Parabolic SAR can be used to set a trailing stop loss. In an uptrend, the stop loss can be set at the level of the Parabolic SAR dot below the price. In a downtrend, the stop loss can be set at the level of the Parabolic SAR dot above the price.</p>
+    <p>In Conclusion the Parabolic SAR is a versatile and popular technical analysis indicator that can help traders identify the direction of a trend, potential entry and exit points, and appropriate stop loss levels. However, like all technical indicators, it's not foolproof and should be used in conjunction with other tools and analysis techniques.</p>
+    <p>Always remember to consider your own risk tolerance and trading goals when using the Parabolic SAR or any other technical indicator.</p>
+     
+    
+    <div class="bottom-section">
+        <div class="bottom-images-container">
+            <img class="bottom-image" src="https://i.pinimg.com/originals/f4/8c/2d/f48c2d1933249281c520eea074cd7f59.png" alt="Image 1">
+            
+        </div>
+    
+                        
+  </div>
+
+</body>
+
+</html>
